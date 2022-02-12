@@ -1,0 +1,46 @@
+inport VM-v1.0 
+<!---VM-v1.0---> 
+get VM.database => {
+  if data files VM.install.p3p 
+  in -files VM.install.p3p only VM: p3p-files 
+  if in SHELL: ~/opp.e1$ 
+  if SHELL get data from .p3p
+  console data
+}
+
+let (os -inport$ data = database => {
+  if (message.content.send["file=index.vm"])
+  let os (LICENSE.LLC => {
+     Copyright => {
+       Copy.LLC =$ =?22?= SHELL.source.send("os") 
+       get datacut <| SHELL |> 
+       get SHELL$ = </command/>
+       command.file(SHELL)
+       Use datacut(): any => {
+         if os get system/system.dll/system32.dll
+         if os get system/system.dll/system64.dll
+         Format => {
+           --> npm.VM @i-/64bit 
+           --> npm.VM @i-/32bit 
+           file-system?22?Formatting32bit: system.sh
+           file-system?22?Formatting64bit: system.sh
+           only-let os files.open: = source(".vm .ZSE ")
+           --> os = source:$ = os.LLC.type="os.e1"
+           --> npm xsudo$ install v1.0 
+         }
+       }
+     }
+  })
+})
+
+get LICENSE => {
+  <!--Copyright 2020 The opp-e1 Authors. All rights reserved.
+     Use of this source code is governed by a VM.FILE license that can be
+     found in the LICENSE file. -->
+}
+
+get Copyright => {
+  Copyright 2020 The opp-e1 Authors. All rights reserved.
+}
+
+
